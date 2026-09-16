@@ -1,0 +1,103 @@
+C++
+Data Type:
+int- whole number
+double- deciml number
+float- decimal value
+char- single character string
+bool- true/false
+string- a set of string character string
+
+//Single Comment
+/* */Multiple Comment
+
+#include<iostream> give access to std::cout, std::cin
+int main() {
+
+
+
+
+
+
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+    //--Declaring variables of diff data types--
+          int      age       = 20;  // whole number
+           ^         ^          ^
+type variables              value
+double price = 19.99; //decimal number (double precision)
+float weight = 65.5f; //decimal number (single precision, using the 'f')
+char garde = 'A'; //single qoutes for single character
+bool isStudent = true; //True or False
+string name = "Maria"; //text
+//---Output using cout----
+	cout <<"Name: "<<name << end1:
+	cout <<"Age: "<<age << end1:
+	cout <<"Price: "<<price << end1:
+	cout <<"Weight: "<<weight << end1:
+	cout <<"Grade: "<<grade << end1:
+	cout <<"Is student: "<<isStudent << end1:
+return 0;
+    
+}
+
+int main() {
+	string userCity;
+	cout<<"\nEnter your city: ";
+	cin>> userCity; // reads one word(stops at whitespace)
+	cout<<"You live in: "<< userCity <<end1;
+	
+	//---Reading a full line(including space)-----
+	cin.ignore(); // clear leftover newline character from previous cin
+	string fullSentence; 
+	cout<<"Enter a sentence about yourself: ";
+	getline(cin, fullSentence); // read the intire line\
+	cout >
+	return 0;
+//---Getting input using cin------
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+	string userCity;
+	cout<<"\nEnter your city: ";
+	cin>> userCity; //read one word(stops in whitespace)
+	cout<<"You livbed in; "<<userCity <<end1;
+	cout<<"You said: "fullSentence <<end1;
+
+	return 0;
+}
+ 
+//Control Flow (if/else if/else)
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+// if/else if/ else---
+	int score;
+	cout<<"Enter exam score: ";
+	cin>> score;
+	
+	if (score >=90){
+	cout <<"Enter your exam score: ";
+	cin>> score;
+	
+	if (score >= 90{
+		cout<<"|Grade A" <<end1;
+	} else if (score >= 80{
+		cout<<"|Grade B" <<end1;
+	} else if (score >= 70{
+		cout<<"|Grade C" <<end1;
+	}else {
+		cout<<"|Grade F" <<end1;
+
+
+
+
+
